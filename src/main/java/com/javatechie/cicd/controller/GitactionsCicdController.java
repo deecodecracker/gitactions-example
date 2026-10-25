@@ -10,6 +10,6 @@ public class GitactionsCicdController {
 
     @GetMapping("/welcome")
     public String getWelcomeMessage(){
-        return "Welcome to Github actions";
+        return "Welcome to Github actions!";
     }
 }
